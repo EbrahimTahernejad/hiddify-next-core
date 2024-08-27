@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/netip"
 	"os"
+	"strings"
 
 	"github.com/bepass-org/warp-plus/warp"
 	C "github.com/sagernet/sing-box/constant"
@@ -158,7 +159,7 @@ func patchWarp(base *option.Outbound, configOpt *ConfigOptions, final bool, stat
 			var warpConfig *T.Outbound
 			var err error
 
-			if configOpt == nil && (key == "p1" || key == "p2") {
+			if (configOpt == nil || !final) && (key == "p1" || key == "p2") {
 				warpConfig = base
 				return nil
 			} else if key == "p1" {
@@ -189,7 +190,7 @@ func patchWarp(base *option.Outbound, configOpt *ConfigOptions, final bool, stat
 			if base.WireGuardOptions.Detour != "" {
 				base.WireGuardOptions.Server = "162.159.192.1"
 			} else {
-				rndDomain := generateRandomString(20)
+				rndDomain := strings.ToLower(generateRandomString(20))
 				staticIpsDns[rndDomain] = []string{}
 				if host != "auto4" {
 					randomIpPort, _ := warp.RandomWarpEndpoint(false, true)
