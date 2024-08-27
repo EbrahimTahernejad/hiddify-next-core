@@ -6,8 +6,10 @@ toolchain go1.22.3
 
 require (
 	github.com/bepass-org/warp-plus v0.0.0-00010101000000-000000000000
+	github.com/go-ini/ini v1.67.0
 	github.com/golang/protobuf v1.5.4
 	github.com/kardianos/service v1.2.2
+	github.com/refraction-networking/utls v1.6.7
 	github.com/sagernet/gomobile v0.1.3
 	github.com/sagernet/sing v0.4.1
 	github.com/sagernet/sing-box v1.8.9
@@ -15,6 +17,8 @@ require (
 	github.com/spf13/cobra v1.8.0
 	github.com/xmdhs/clash2singbox v0.0.2
 	go.jonnrb.io/speedtest v0.2.0
+	golang.org/x/crypto v0.25.0
+	golang.org/x/sync v0.7.0
 	golang.org/x/sys v0.22.0
 	google.golang.org/grpc v1.65.0
 	google.golang.org/protobuf v1.34.2
@@ -74,7 +78,6 @@ require (
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
 	github.com/quic-go/quic-go v0.45.1 // indirect
-	github.com/refraction-networking/utls v1.6.7 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	github.com/sagernet/bbolt v0.0.0-20231014093535-ea5cb2fe9f0a // indirect
 	github.com/sagernet/cloudflare-tls v0.0.0-20231208171750-a4483c1b7cd1 // indirect
@@ -106,11 +109,9 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
-	golang.org/x/crypto v0.25.0 // indirect
 	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc // indirect
 	golang.org/x/mod v0.18.0 // indirect
 	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/sync v0.7.0
 	golang.org/x/text v0.16.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.22.0 // indirect
