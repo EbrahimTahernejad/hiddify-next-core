@@ -5,9 +5,9 @@ go 1.22.0
 toolchain go1.22.3
 
 require (
-	github.com/go-ini/ini v1.67.0
 	github.com/bepass-org/warp-plus v1.2.4
 	github.com/fatih/color v1.16.0 // indirect
+	github.com/go-ini/ini v1.67.0
 	github.com/hiddify/hiddify-app-demo-extension v0.0.0-20241001070003-26039f960ad6
 	github.com/hiddify/hiddify-ip-scanner-extension v0.0.0-20241001070353-7ffd688b96b2
 	github.com/improbable-eng/grpc-web v0.15.0
@@ -20,8 +20,8 @@ require (
 	github.com/spf13/cobra v1.8.0
 	github.com/xmdhs/clash2singbox v0.0.2
 	go.jonnrb.io/speedtest v0.2.0
-	golang.org/x/crypto v0.25.0
-	golang.org/x/sync v0.7.0
+	golang.org/x/crypto v0.26.0
+	golang.org/x/sync v0.8.0
 	golang.org/x/sys v0.25.0
 	google.golang.org/grpc v1.66.0
 	google.golang.org/protobuf v1.34.2
@@ -29,7 +29,6 @@ require (
 )
 
 require (
-	github.com/Yiwen-Chan/tinydb v0.0.0-20230129042445-3321642f0674
 	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
 	github.com/tendermint/tm-db v0.6.7
 )
@@ -111,7 +110,7 @@ require (
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
 	github.com/quic-go/quic-go v0.46.0 // indirect
-	github.com/refraction-networking/utls v1.6.7 // indirect
+	github.com/refraction-networking/utls v1.6.7
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	github.com/sagernet/bbolt v0.0.0-20231014093535-ea5cb2fe9f0a // indirect
 	github.com/sagernet/cloudflare-tls v0.0.0-20231208171750-a4483c1b7cd1 // indirect
@@ -142,11 +141,9 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
-	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc // indirect
 	golang.org/x/mod v0.18.0 // indirect
 	golang.org/x/net v0.28.0
-	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/text v0.18.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.22.0 // indirect
