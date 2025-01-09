@@ -5,24 +5,57 @@ go 1.22.0
 toolchain go1.22.3
 
 require (
-	github.com/bepass-org/warp-plus v0.0.0-00010101000000-000000000000
 	github.com/go-ini/ini v1.67.0
-	github.com/golang/protobuf v1.5.4
+	github.com/bepass-org/warp-plus v1.2.4
+	github.com/fatih/color v1.16.0 // indirect
+	github.com/hiddify/hiddify-app-demo-extension v0.0.0-20241001070003-26039f960ad6
+	github.com/hiddify/hiddify-ip-scanner-extension v0.0.0-20241001070353-7ffd688b96b2
+	github.com/improbable-eng/grpc-web v0.15.0
+	github.com/jellydator/validation v1.1.0
 	github.com/kardianos/service v1.2.2
-	github.com/refraction-networking/utls v1.6.7
-	github.com/sagernet/gomobile v0.1.3
-	github.com/sagernet/sing v0.4.1
+	github.com/sagernet/gomobile v0.1.4
+	github.com/sagernet/sing v0.4.3
 	github.com/sagernet/sing-box v1.8.9
-	github.com/sagernet/sing-dns v0.2.0
+	github.com/sagernet/sing-dns v0.2.3
 	github.com/spf13/cobra v1.8.0
 	github.com/xmdhs/clash2singbox v0.0.2
 	go.jonnrb.io/speedtest v0.2.0
 	golang.org/x/crypto v0.25.0
 	golang.org/x/sync v0.7.0
-	golang.org/x/sys v0.22.0
-	google.golang.org/grpc v1.65.0
+	golang.org/x/sys v0.25.0
+	google.golang.org/grpc v1.66.0
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/yaml.v3 v3.0.1
+)
+
+require (
+	github.com/Yiwen-Chan/tinydb v0.0.0-20230129042445-3321642f0674
+	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
+	github.com/tendermint/tm-db v0.6.7
+)
+
+require (
+	github.com/DataDog/zstd v1.4.1 // indirect
+	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
+	github.com/cespare/xxhash v1.1.0 // indirect
+	github.com/cosmos/gorocksdb v1.2.0 // indirect
+	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f // indirect
+	github.com/dgraph-io/badger/v2 v2.2007.2 // indirect
+	github.com/dgraph-io/ristretto v0.0.3-0.20200630154024-f66de99634de // indirect
+	github.com/dgryski/go-farm v0.0.0-20190423205320-6a90982ecee2 // indirect
+	github.com/dustin/go-humanize v1.0.0 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
+	github.com/golang/snappy v0.0.1 // indirect
+	github.com/jmhodges/levigo v1.0.0 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/metacubex/tfo-go v0.0.0-20240821025650-e9be0afd5e7d // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/rodaine/table v1.1.1 // indirect
+	github.com/rs/cors v1.7.0 // indirect
+	go.etcd.io/bbolt v1.3.6 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+	nhooyr.io/websocket v1.8.6 // indirect
 )
 
 require (
@@ -30,7 +63,7 @@ require (
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/caddyserver/certmagic v0.20.0 // indirect
-	github.com/cloudflare/circl v1.3.9 // indirect
+	github.com/cloudflare/circl v1.4.0 // indirect
 	github.com/cretz/bine v0.2.0 // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
@@ -61,7 +94,7 @@ require (
 	github.com/libdns/libdns v0.2.2 // indirect
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
 	github.com/mholt/acmez v1.2.0 // indirect
-	github.com/miekg/dns v1.1.61 // indirect
+	github.com/miekg/dns v1.1.62 // indirect
 	github.com/onsi/ginkgo/v2 v2.19.0 // indirect
 	github.com/ooni/go-libtor v1.1.8 // indirect
 	github.com/oschwald/maxminddb-golang v1.12.0 // indirect
@@ -77,23 +110,23 @@ require (
 	github.com/pires/go-proxyproto v0.7.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
-	github.com/quic-go/quic-go v0.45.1 // indirect
+	github.com/quic-go/quic-go v0.46.0 // indirect
+	github.com/refraction-networking/utls v1.6.7 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	github.com/sagernet/bbolt v0.0.0-20231014093535-ea5cb2fe9f0a // indirect
 	github.com/sagernet/cloudflare-tls v0.0.0-20231208171750-a4483c1b7cd1 // indirect
 	github.com/sagernet/gvisor v0.0.0-20240428053021-e691de28565f // indirect
 	github.com/sagernet/netlink v0.0.0-20240523065131-45e60152f9ba // indirect
-	github.com/sagernet/quic-go v0.43.1-beta.2 // indirect
+	github.com/sagernet/quic-go v0.47.0-beta.2 // indirect
 	github.com/sagernet/reality v0.0.0-20230406110435-ee17307e7691 // indirect
 	github.com/sagernet/sing-mux v0.2.0 // indirect
-	github.com/sagernet/sing-quic v0.2.0-beta.5 // indirect
+	github.com/sagernet/sing-quic v0.2.2 // indirect
 	github.com/sagernet/sing-shadowsocks v0.2.7 // indirect
 	github.com/sagernet/sing-shadowsocks2 v0.2.0 // indirect
 	github.com/sagernet/sing-shadowtls v0.1.4 // indirect
-	github.com/sagernet/sing-tun v0.3.2 // indirect
-	github.com/sagernet/sing-vmess v0.1.8 // indirect
+	github.com/sagernet/sing-tun v0.3.3 // indirect
+	github.com/sagernet/sing-vmess v0.1.12 // indirect
 	github.com/sagernet/smux v0.0.0-20231208180855-7041f6ea79e7 // indirect
-	github.com/sagernet/tfo-go v0.0.0-20231209031829-7b5343ac1dc6 // indirect
 	github.com/sagernet/utls v1.5.4 // indirect
 	github.com/sagernet/wireguard-go v0.0.0-20231215174105-89dec3b2f3e8 // indirect
 	github.com/sagernet/ws v0.0.0-20231204124109-acfe8907c854 // indirect
@@ -109,23 +142,25 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
+	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc // indirect
 	golang.org/x/mod v0.18.0 // indirect
-	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/net v0.28.0
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.22.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240528184218-531527333157 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240604185151-ef581f913117 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	lukechampine.com/blake3 v1.3.0 // indirect
 )
 
-replace github.com/sagernet/sing-box => github.com/hiddify/hiddify-sing-box v1.8.9-0.20240806200952-27c0edc27161
+replace github.com/sagernet/sing-box => github.com/hiddify/hiddify-sing-box v1.8.9-0.20240928213625-7b79bf0c814d
 
-replace github.com/xtls/xray-core => github.com/hiddify/xray-core v0.0.0-20240729110224-c3df022f042a
+replace github.com/xtls/xray-core => github.com/hiddify/xray-core v0.0.0-20240902024714-0fcb0895bb4b
 
 replace github.com/sagernet/wireguard-go => github.com/hiddify/wireguard-go v0.0.0-20240727191222-383c1da14ff1
 
 replace github.com/bepass-org/warp-plus => github.com/hiddify/warp-plus v0.0.0-20240717223357-4f3122e0d11d
 
-replace github.com/hiddify/ray2sing => github.com/hiddify/ray2sing v0.0.0-20240807031953-a9df25615108
+replace github.com/hiddify/ray2sing => github.com/hiddify/ray2sing v0.0.0-20240928221833-190b549d5222
